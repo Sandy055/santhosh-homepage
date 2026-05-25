@@ -12,9 +12,17 @@ Santhosh Malarvannan
 
 A personal homepage built with vanilla HTML5, CSS3, and ES6+ modules (no frameworks or libraries). The site showcases my background, research publications, work experience, projects, and contact information. The original creative component is the **Projects section** on the homepage — project cards are dynamically rendered from a JS data array, appear with staggered fade-in animations via IntersectionObserver, and the background has floating particle dots spawned by JS and animated with CSS keyframes.
 
-## Screenshot
+## Screenshots
 
-![Homepage Screenshot](images/screenshot.png)
+![Hero](images/screenshot-hero.png)
+![About Me](images/screenshot-about.png)
+![Projects](images/screenshot-projects.png)
+![Publications](images/screenshot-publications.png)
+![Resume](images/screenshot-resume.png)
+![All Projects](images/screenshot-allprojects.png)
+![GitHub Projects](images/screenshot-github.png)
+![AI Page Timeline](images/screenshot-ai-timeline.png)
+![AI Page Stats](images/screenshot-ai-stats.png)
 
 ## Live Demo
 
