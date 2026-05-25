@@ -6,7 +6,7 @@ Santhosh Malarvannan
 
 ## Class Link
 
-[CS 5010 / Web Development — Northeastern University, Boston](#)
+[CS 5010 / Web Development — Northeastern University, Boston](https://johnguerra.co/classes/webDevelopment_online_summer_2026/)
 
 ## Project Objective
 
