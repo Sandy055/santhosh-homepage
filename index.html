@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Santhosh Malarvannan" />
+    <meta
+      name="description"
+      content="Personal homepage of Santhosh Malarvannan – AI/ML Enthusiast, MS CS at Northeastern University, Boston."
+    />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <title>Santhosh Malarvannan</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <a href="index.html" class="navbar-logo">SM</a>
+      <ul class="navbar-links" id="navbar-links">
+        <li><a href="#about" class="navbar-link">About</a></li>
+        <li><a href="#projects" class="navbar-link">Projects</a></li>
+        <li><a href="#publications" class="navbar-link">Publications</a></li>
+        <li><a href="#contact" class="navbar-link">Contact</a></li>
+        <li><a href="projects.html" class="navbar-link">All Projects</a></li>
+        <li>
+          <a href="ai.html" class="navbar-link navbar-link-highlight"
+            >AI Page</a
+          >
+        </li>
+      </ul>
+      <button
+        class="navbar-toggle"
+        id="navbar-toggle"
+        aria-label="Toggle navigation"
+      >
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+      </button>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero" id="hero">
+      <div class="hero-inner">
+        <p class="hero-label">Hello, I am</p>
+        <h1 class="hero-title">Santhosh Malarvannan</h1>
+        <p class="hero-subtitle">
+          AI &amp; ML Enthusiast · MS in Computer Science @ Northeastern
+          University, Boston
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a
+            href="https://github.com/Sandy055"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+            >GitHub</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-heading">About Me</h2>
+        <div class="about-layout">
+          <div class="about-bio">
+            <p>
+              I am a graduate student pursuing my Master's in Computer Science
+              at Northeastern University, Boston (Sep 2025 – Present). I
+              completed my B.Tech in Computer Science and Engineering at Vellore
+              Institute of Technology, Chennai (Sep 2021 – May 2025).
+            </p>
+            <p>
+              My passion lies at the intersection of AI and Machine Learning,
+              especially in healthcare applications. I have worked as an AI
+              Product Engineer Intern at Medialogic Solutions, where I built a
+              Django-based healthcare scheduling system using Random Forest for
+              appointment prioritization, and as a Software Developer Intern at
+              Bastian Solutions, where I developed a web-based RCS dashboard
+              using C# and ASP.NET MVC.
+            </p>
+            <p>
+              I have published research on traffic sign classification,
+              multimodal emotion recognition, skin cancer detection, and
+              diabetic retinopathy detection using deep learning.
+            </p>
+          </div>
+          <div class="about-details">
+            <h3 class="about-details-title">Quick Facts</h3>
+            <ul class="details-list">
+              <li class="details-item">
+                <span class="details-label">Location</span>
+                <span class="details-value">Boston, MA</span>
+              </li>
+              <li class="details-item">
+                <span class="details-label">Education</span>
+                <span class="details-value">MS CS @ NEU</span>
+              </li>
+              <li class="details-item">
+                <span class="details-label">Undergrad</span>
+                <span class="details-value">B.Tech CSE @ VIT Chennai</span>
+              </li>
+              <li class="details-item">
+                <span class="details-label">Email</span>
+                <span class="details-value"
+                  >malarvannan.s@northeastern.edu</span
+                >
+              </li>
+            </ul>
+            <h3 class="about-details-title">Skills</h3>
+            <div class="skills-tags">
+              <span class="skill-chip">Python</span>
+              <span class="skill-chip">SQL</span>
+              <span class="skill-chip">R</span>
+              <span class="skill-chip">C#</span>
+              <span class="skill-chip">Java</span>
+              <span class="skill-chip">JavaScript</span>
+              <span class="skill-chip">React</span>
+              <span class="skill-chip">ASP.NET</span>
+              <span class="skill-chip">PyTorch</span>
+              <span class="skill-chip">TensorFlow</span>
+              <span class="skill-chip">Hugging Face</span>
+              <span class="skill-chip">OpenCV</span>
+              <span class="skill-chip">scikit-learn</span>
+              <span class="skill-chip">AWS</span>
+              <span class="skill-chip">Docker</span>
+              <span class="skill-chip">Git</span>
+              <span class="skill-chip">REST APIs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects-section" id="projects">
+      <div class="projects-bg-canvas" id="projects-canvas"></div>
+      <div class="container projects-container">
+        <h2 class="section-heading">Projects</h2>
+        <p class="projects-intro">
+          A selection of things I have built. Hover to explore.
+        </p>
+        <div class="projects-grid" id="projects-grid">
+          <!-- Cards rendered by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section class="section" id="publications">
+      <div class="container">
+        <h2 class="section-heading">Research Publications</h2>
+        <div class="pub-list">
+          <article class="pub-card">
+            <span class="pub-year">2024</span>
+            <h3 class="pub-title">
+              A Novel Adaptive Hybrid Focal-Entropy Loss for Enhancing Diabetic
+              Retinopathy Detection Using CNNs
+            </h3>
+            <p class="pub-authors">
+              Santhosh Malarvannan, Pandiyaraju V, Shravan Venkatraman, Abeshek
+              A, Priyadarshini B, Kannan A
+            </p>
+            <a
+              href="https://arxiv.org/abs/2411.10843"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="pub-link"
+              >arXiv &rarr;</a
+            >
+          </article>
+          <article class="pub-card">
+            <span class="pub-year">2024</span>
+            <h3 class="pub-title">
+              Multimodal Emotion Recognition using Audio-Video Transformer
+              Fusion with Cross Attention
+            </h3>
+            <p class="pub-authors">
+              Joe Dhanith P R, Shravan Venkatraman, Vigya Sharma, Santhosh
+              Malarvannan
+            </p>
+            <a
+              href="https://arxiv.org/abs/2407.18552"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="pub-link"
+              >arXiv &rarr;</a
+            >
+          </article>
+          <article class="pub-card">
+            <span class="pub-year">2024</span>
+            <h3 class="pub-title">
+              Exploiting Precision Mapping and Component-Specific Feature
+              Enhancement for Breast Cancer Segmentation
+            </h3>
+            <p class="pub-authors">
+              Pandiyaraju V, Shravan Venkatraman, Pavan Kumar S, Santhosh
+              Malarvannan, Kannan A
+            </p>
+            <a
+              href="https://arxiv.org/abs/2407.02844"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="pub-link"
+              >arXiv &rarr;</a
+            >
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section class="section section-alt" id="resume">
+      <div class="container">
+        <h2 class="section-heading">Resume</h2>
+        <div class="resume-grid">
+          <div class="resume-col">
+            <h3 class="resume-col-title">Experience</h3>
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <strong class="resume-role">AI Product Engineer Intern</strong>
+                <span class="resume-date">May 2024 – Aug 2024</span>
+              </div>
+              <p class="resume-org">Medialogic Solutions Pvt. Ltd., Chennai</p>
+              <p class="resume-desc">
+                Developed a Django-based healthcare scheduling system using
+                Random Forest for appointment prioritization. Automated patient
+                data ingestion with Python and SQL, cutting manual onboarding
+                effort by 40%. Integrated predictive models via REST APIs for
+                real-time decision support.
+              </p>
+            </div>
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <strong class="resume-role">Software Developer Intern</strong>
+                <span class="resume-date">Aug 2023 – Nov 2023</span>
+              </div>
+              <p class="resume-org">
+                Bastian Solutions India Pvt. Ltd., Bengaluru
+              </p>
+              <p class="resume-desc">
+                Built a web-based RCS dashboard using C# and ASP.NET MVC,
+                centralizing robot monitoring and control. Optimized backend SQL
+                stored procedures, improving throughput by ~30%. Developed an
+                operator interface with HTML, CSS, and JavaScript.
+              </p>
+            </div>
+          </div>
+          <div class="resume-col">
+            <h3 class="resume-col-title">Education</h3>
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <strong class="resume-role">M.S. in Computer Science</strong>
+                <span class="resume-date">Sep 2025 – Present</span>
+              </div>
+              <p class="resume-org">Northeastern University, Boston, MA</p>
+            </div>
+            <div class="resume-entry">
+              <div class="resume-entry-header">
+                <strong class="resume-role"
+                  >B.Tech in CS &amp; Engineering</strong
+                >
+                <span class="resume-date">Sep 2021 – May 2025</span>
+              </div>
+              <p class="resume-org">Vellore Institute of Technology, Chennai</p>
+            </div>
+            <h3 class="resume-col-title resume-col-title-spaced">
+              Technical Skills
+            </h3>
+            <div class="resume-skills-block">
+              <p class="resume-skill-row">
+                <strong>Languages:</strong> Python, SQL, R, C#, Java, HTML, CSS,
+                JavaScript, React, ASP.NET
+              </p>
+              <p class="resume-skill-row">
+                <strong>AI/ML:</strong> PyTorch, TensorFlow, NLP, Hugging Face,
+                OpenCV, scikit-learn, Pandas, NumPy
+              </p>
+              <p class="resume-skill-row">
+                <strong>Tools:</strong> AWS, Azure, Docker, Hadoop, Apache
+                Spark, MySQL, Power BI, Tableau, REST APIs, Git
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-dark" id="contact">
+      <div class="container container-narrow">
+        <h2 class="section-heading section-heading-light">Get In Touch</h2>
+        <p class="contact-text">
+          Feel free to reach out if you want to discuss research, projects, or
+          opportunities.
+        </p>
+        <div class="contact-row">
+          <a
+            href="https://www.linkedin.com/in/santhosh-malarvannan/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-btn"
+            >LinkedIn</a
+          >
+          <a
+            href="https://github.com/Sandy055"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-btn"
+            >GitHub</a
+          >
+          <a
+            href="https://scholar.google.com/citations?user=zSs5BlYAAAAJ&hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-btn"
+            >Google Scholar</a
+          >
+          <a href="mailto:malarvannan.s@northeastern.edu" class="contact-btn"
+            >Email</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer-copy">
+        &copy; 2026 Santhosh Malarvannan &middot; Built with HTML, CSS &amp; JS.
+      </p>
+    </footer>
+  </body>
+</html>

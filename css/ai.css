@@ -1,0 +1,175 @@
+/* === AI Page — Dark Sophisticated Theme === */
+.ai-body {
+  background: #0b0e14;
+  color: #c9d1d9;
+}
+
+.ai-page {
+  padding-top: calc(var(--nav-h) + 3rem);
+  padding-bottom: 4rem;
+}
+
+.ai-badge {
+  display: inline-block;
+  padding: 0.35rem 1rem;
+  background: rgba(37, 99, 235, 0.15);
+  color: #58a6ff;
+  border: 1px solid rgba(37, 99, 235, 0.3);
+  border-radius: 20px;
+  font-size: 0.78rem;
+  margin-bottom: 1rem;
+}
+
+.ai-title {
+  font-family: Georgia, serif;
+  font-size: 2.2rem;
+  color: #e2e8f0;
+  margin-bottom: 0.75rem;
+}
+
+.ai-intro {
+  color: #8b949e;
+  max-width: 620px;
+  margin-bottom: 3rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.ai-section {
+  margin-bottom: 3.5rem;
+}
+
+.ai-section-heading {
+  font-family: Georgia, serif;
+  font-size: 1.4rem;
+  color: #e2e8f0;
+  margin-bottom: 2rem;
+}
+
+/* === Timeline === */
+.timeline {
+  position: relative;
+  padding: 1rem 0 2rem;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #1e293b;
+  transform: translateX(-50%);
+}
+
+.timeline-entry {
+  position: relative;
+  width: 50%;
+  padding-bottom: 1.75rem;
+}
+
+.timeline-entry-left {
+  padding-right: 2.5rem;
+  text-align: right;
+}
+
+.timeline-entry-right {
+  left: 50%;
+  padding-left: 2.5rem;
+  text-align: left;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 0.3rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid #0b0e14;
+  box-shadow: 0 0 8px rgba(37, 99, 235, 0.4);
+}
+
+.timeline-entry-left .timeline-dot {
+  right: -6px;
+}
+
+.timeline-entry-right .timeline-dot {
+  left: -6px;
+}
+
+.timeline-card {
+  display: inline-block;
+  text-align: left;
+}
+
+.timeline-year {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #58a6ff;
+}
+
+.timeline-card-title {
+  font-size: 0.95rem;
+  color: #e2e8f0;
+  margin-bottom: 0.2rem;
+}
+
+.timeline-card-desc {
+  font-size: 0.82rem;
+  color: #8b949e;
+  line-height: 1.5;
+}
+
+/* === Stats === */
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.stat-box {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  background: #111827;
+}
+
+.stat-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #58a6ff;
+}
+
+.stat-label {
+  font-size: 0.78rem;
+  color: #8b949e;
+}
+
+/* === Mobile timeline === */
+@media (max-width: 768px) {
+  .timeline-line {
+    left: 16px;
+  }
+
+  .timeline-entry {
+    width: 100%;
+    left: 0;
+    padding-left: 40px;
+    padding-right: 0;
+    text-align: left;
+  }
+
+  .timeline-entry-left {
+    text-align: left;
+    padding-right: 0;
+  }
+
+  .timeline-entry-left .timeline-dot,
+  .timeline-entry-right .timeline-dot {
+    left: 10px;
+    right: auto;
+  }
+}
