@@ -464,6 +464,9 @@ img {
 
 .resume-entry {
   margin-bottom: 1.25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .resume-entry-header {
@@ -577,11 +580,17 @@ img {
   display: inline-block;
   padding-bottom: 0.2rem;
   margin-bottom: 1.25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Experience cards */
 .exp-card {
   margin-bottom: 1.25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .exp-header {
@@ -693,5 +702,8 @@ img {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1.25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border: 3px solid var(--border);
 }
