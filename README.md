@@ -30,7 +30,7 @@ A personal homepage built with vanilla HTML5, CSS3, and ES6+ modules (no framewo
 
 ## Demo Video
 
-[Link to narrated video demonstration](#)
+[Demo Video](https://www.youtube.com/watch?v=VSyK2Zta7xQ)
 
 ## Project Structure
 
