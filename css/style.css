@@ -685,3 +685,13 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+/* === Hero Avatar === */
+.hero-avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.25rem;
+  border: 3px solid var(--border);
+}

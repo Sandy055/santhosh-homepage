@@ -1,4 +1,29 @@
+
+  UW PICO 5.09                        File: index.html                          
+
 <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Santhosh Malarvannan" />
+    <meta
+      name="description"
+      content="Personal homepage of Santhosh Malarvannan – AI/ML Enthusiast, MS$
+    />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <title>Santhosh Malarvannan</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <a href="index.html" class="navbar-logo">SM</a>
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
+^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell 
+A<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -43,11 +68,6 @@
     <!-- Hero -->
     <header class="hero" id="hero">
       <div class="hero-inner">
-        <img
-          src="./images/profile.jpeg"
-          alt="Santhosh Malarvannan"
-          class="hero-avatar"
-        />
         <p class="hero-label">Hello, I am</p>
         <h1 class="hero-title">Santhosh Malarvannan</h1>
         <p class="hero-subtitle">
