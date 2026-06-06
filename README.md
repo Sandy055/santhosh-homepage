@@ -91,8 +91,14 @@ GenAI tools were used in a limited capacity during this project.
 - **README & Documentation:** Claude helped me draft and organize the README structure and the design document outline.
 - **Terminal Commands:** I used Claude to look up terminal commands for setting up the project, running Prettier/ESLint, and deploying to GitHub Pages.
 - **All code, styling, and design decisions** for the main homepage (`index.html`) and projects page (`projects.html`) were written and implemented by me. The AI was not used to generate the HTML, CSS, or JavaScript for these pages.
-- **Model:** Claude (Anthropic), accessed via claude.ai, May 2026.
+- **Model:** Claude Opus 4 (Anthropic), accessed via claude.ai, May 2026.
+### Prompts Used
 
+- "Help me brainstorm a layout structure for a personal portfolio homepage with sections for about, projects, publications, resume, and contact."
+- "What is the terminal command to initialize a new npm project and install eslint and prettier as dev dependencies?"
+- "Help me organize a design document with user personas, user stories, and mockups for a personal homepage project."
+- "Generate a timeline-based AI insights page with my academic and professional milestones for the ai.html page."
+- "How do I deploy a static site to GitHub Pages from the main branch?"
 ## License
 
 MIT — see [LICENSE](LICENSE).
